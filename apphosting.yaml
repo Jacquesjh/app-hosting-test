@@ -9,4 +9,4 @@ runConfig:
 # Environment variables and secrets
 env:
   - variable: NEXT_PUBLIC_TEST
-    value: NEXT_PUBLIC_TEST
+    secret: secret1
