@@ -1,6 +1,7 @@
 import Image from "next/image";
 
 export default function Home() {
+  const e = process.env.NEXT_PUBLIC_TEST || "no no";
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
@@ -14,7 +15,7 @@ export default function Home() {
             href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
             target="_blank"
             rel="noopener noreferrer">
-            {process.env.NEXT_PUBLIC_TEST}{" "}
+            {e}{" "}
             <Image
               src="/vercel.svg"
               alt="Vercel Logo"

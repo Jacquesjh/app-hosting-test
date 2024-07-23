@@ -10,3 +10,6 @@ runConfig:
 env:
   - variable: NEXT_PUBLIC_TEST
     value: NEXT_PUBLIC_TEST
+    availability:
+      - BUILD
+      - RUNTIME
