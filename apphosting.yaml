@@ -1,0 +1,12 @@
+# Settings for Cloud Run
+runConfig:
+  minInstances: 0
+  maxInstances: 100
+  concurrency: 100
+  cpu: 1
+  memoryMiB: 1024
+
+# Environment variables and secrets
+env:
+  - variable: NEXT_PUBLIC_TEST
+    value: NEXT_PUBLIC_TEST
